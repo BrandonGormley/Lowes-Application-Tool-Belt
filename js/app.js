@@ -1,0 +1,1 @@
+let displayText = document.querySelector('.main-input').value

@@ -2,8 +2,141 @@
 // VARIABLES //
 //////////////
 
-$background-color: #f0f0f0;
+$background-color: #f7f7f7;
+$Lowes-Blue: #004792;
+
+///////////////////////
+// BODY / UNIVERSAL //
+/////////////////////
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
 
 body {
     background: $background-color;
+}
+
+///////////////////////
+///// MAIN STYLES ////
+/////////////////////
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+}
+
+.main-logo {
+    margin: 3rem 0rem 1rem;
+    width: 250px;
+}
+
+.main-heading {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: $Lowes-Blue;
+    
+}
+
+.heading-display-check {
+    font-size: 2.15rem;
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+    font-weight: 300;
+    left: 5px;
+}
+
+.main-item-number {
+    color: $Lowes-Blue;
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.main-input {
+    margin: 1rem 0;
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background: $background-color;
+    border: 3px solid $Lowes-Blue;
+    font-size: 1.5rem;
+    color: $Lowes-Blue;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+
+    &:focus {
+        border: 3px solid $Lowes-Blue;
+        outline: none;
+    }
+}
+
+.main-button {
+    margin-top: 1rem;
+    width: 90%;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: $Lowes-Blue;
+    border: none;
+    font-size: 1.25rem;
+    color: $background-color;
+}
+
+.main-display-text {
+    font-size: 2.5rem;
+    color: $Lowes-Blue;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 5rem;
+}
+
+
+
+
+
+
+///////////////////////
+/// MEDIA QUERIES ////
+/////////////////////
+
+@media (min-width: 768px) {
+
+    .main-logo {
+        width: 350px;
+    }
+
+    .main-heading {
+        font-size: 4rem;
+    }
+
+    .heading-display-check {
+        font-size: 3rem;
+        left: 0px;
+    }
+
+    .main-item-number {
+        font-size: 3rem;
+    }
+
+    .main-input {
+        width: 75%;
+    }
+
+    .main-button {
+        width: 65%;
+        padding: 12px 24px;
+    }
+
+    .main-display-text {
+        font-size: 3rem;
+    }
 }
