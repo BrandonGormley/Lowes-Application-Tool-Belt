@@ -23,10 +23,10 @@ mainButton.addEventListener('click', () => {
 function checkDisplay() {
     for (let i = 0; i < applianceDisplays.length; i++) {
         if (itemInput.value === applianceDisplays[i]) {
-            displayText.textContent = 'DISPLAYED!';
+            displayText.textContent = `${itemInput.value} is DISPLAYED!`;
         }
         else {
-            displayText.textContent = 'NOT DISPLAYED :(';
+            displayText.textContent = `Appliance is NOT DISPLAYED :(`;
         }
     }
 }

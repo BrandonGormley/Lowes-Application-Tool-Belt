@@ -51,16 +51,18 @@ body {
   padding: 10px 20px;
   border-radius: 8px;
   background: #f7f7f7;
-  border: 3px solid #004792;
+  border: 3px solid #6b6b6b;
   font-size: 1.5rem;
   color: #004792;
   text-transform: uppercase;
   font-weight: 700;
   text-align: center;
+  transition: 0.3s ease-in-out;
 }
 .main-input:focus {
   border: 3px solid #004792;
   outline: none;
+  transform: scale(1.01);
 }
 
 .main-button {
@@ -76,15 +78,19 @@ body {
 }
 .main-button:hover {
   cursor: pointer;
-  transform: scale(1.03);
+  transform: scale(1.02);
+  background: #005bbb;
+}
+.main-button:focus {
+  outline: none;
 }
 
 .main-display-text {
-  font-size: 2.25rem;
+  font-size: 2rem;
   color: #004792;
   text-transform: uppercase;
   font-weight: 700;
-  margin-top: 5rem;
+  margin-top: 3rem;
   text-align: center;
 }
 
@@ -116,7 +122,7 @@ body {
   }
 
   .main-display-text {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 }
 @media (min-width: 1024px) {
@@ -138,11 +144,11 @@ body {
   }
 
   .main-input {
-    width: 50%;
+    width: 35%;
   }
 
   .main-button {
-    width: 45%;
+    width: 30%;
     padding: 12px 24px;
   }
 
