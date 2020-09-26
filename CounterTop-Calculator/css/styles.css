@@ -23,16 +23,16 @@ body {
 }
 
 .main-heading {
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-transform: uppercase;
   color: #004792;
 }
 
 .heading-display-check {
-  font-size: 2.15rem;
+  font-size: 2.5rem;
   text-align: center;
   position: relative;
-  bottom: 20px;
+  bottom: 5px;
   font-weight: 300;
   left: 5px;
 }
@@ -111,7 +111,7 @@ body {
   }
 
   .heading-display-check {
-    font-size: 3rem;
+    font-size: 4rem;
     left: 0px;
   }
 
@@ -147,8 +147,8 @@ body {
   }
 
   .heading-display-check {
-    font-size: 3.75rem;
-    left: 0px;
+    font-size: 4.25rem;
+    left: 40px;
   }
 
   .main-item-number {
