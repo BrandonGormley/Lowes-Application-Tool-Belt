@@ -44,16 +44,16 @@ body {
     
 }
 
-.heading-display-check {
+.main-sub-heading {
     font-size: 2.5rem;
     text-align: center;
     position: relative;
     bottom: 5px;
     font-weight: 300;
-    left: 5px
+    left: 5px;
 }
 
-.main-item-number {
+.main-heading-granite {
     color: $Lowes-Blue;
     text-transform: uppercase;
     font-size: 2rem;
@@ -61,8 +61,18 @@ body {
     margin-bottom: 1rem;
 }
 
+.button-letter {
+    padding: 7px 14px;
+    margin: 0.25rem 0.5rem;
+    font-size: 2rem;
+    border: 3px solid $Lowes-Blue;
+    color: $Lowes-Blue;
+    border-radius: 8px;
+    background-color: $background-color;
+}
+
 .main-input {
-    margin: 1rem 0;
+    margin: 1.5rem 0;
     width: 100%;
     padding: 10px 20px;
     border-radius: 8px;
@@ -104,26 +114,6 @@ body {
     }
 }
 
-.main-example-text {
-    margin-top: 0.5rem;
-    color: rgb(116, 116, 116);
-    font-size: 0.80rem;
-    font-weight: 700;
-}
-
-.main-display-text {
-    font-size: 2rem;
-    color: $Lowes-Blue;
-    text-transform: uppercase;
-    font-weight: 700;
-    margin-top: 3rem;
-    text-align: center;
-}
-
-
-
-
-
 
 ///////////////////////
 /// MEDIA QUERIES ////
@@ -139,7 +129,7 @@ body {
         font-size: 4rem;
     }
 
-    .heading-display-check {
+    .main-sub-heading {
         font-size: 4rem;
         left: 0px;
     }
@@ -178,7 +168,7 @@ body {
         font-size: 5rem;
     }
 
-    .heading-display-check {
+    .main-sub-heading {
         font-size: 4.25rem;
         left: 40px;
     }

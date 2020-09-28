@@ -28,7 +28,7 @@ body {
   color: #004792;
 }
 
-.heading-display-check {
+.main-sub-heading {
   font-size: 2.5rem;
   text-align: center;
   position: relative;
@@ -37,7 +37,7 @@ body {
   left: 5px;
 }
 
-.main-item-number {
+.main-heading-granite {
   color: #004792;
   text-transform: uppercase;
   font-size: 2rem;
@@ -45,8 +45,18 @@ body {
   margin-bottom: 1rem;
 }
 
+.button-letter {
+  padding: 7px 14px;
+  margin: 0.25rem 0.5rem;
+  font-size: 2rem;
+  border: 3px solid #004792;
+  color: #004792;
+  border-radius: 8px;
+  background-color: #f7f7f7;
+}
+
 .main-input {
-  margin: 1rem 0;
+  margin: 1.5rem 0;
   width: 100%;
   padding: 10px 20px;
   border-radius: 8px;
@@ -85,22 +95,6 @@ body {
   outline: none;
 }
 
-.main-example-text {
-  margin-top: 0.5rem;
-  color: #747474;
-  font-size: 0.8rem;
-  font-weight: 700;
-}
-
-.main-display-text {
-  font-size: 2rem;
-  color: #004792;
-  text-transform: uppercase;
-  font-weight: 700;
-  margin-top: 3rem;
-  text-align: center;
-}
-
 @media (min-width: 768px) {
   .main-logo {
     width: 350px;
@@ -110,7 +104,7 @@ body {
     font-size: 4rem;
   }
 
-  .heading-display-check {
+  .main-sub-heading {
     font-size: 4rem;
     left: 0px;
   }
@@ -146,7 +140,7 @@ body {
     font-size: 5rem;
   }
 
-  .heading-display-check {
+  .main-sub-heading {
     font-size: 4.25rem;
     left: 40px;
   }
