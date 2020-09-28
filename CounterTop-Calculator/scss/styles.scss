@@ -114,6 +114,22 @@ body {
     }
 }
 
+///////////////////////
+// JS ADDED CLASSES //
+/////////////////////
+
+.button-selected {
+    color: white;
+    background: $Lowes-Blue;
+}
+
+#total {
+    font-size: 1.5rem;
+    color: rgb(0, 73, 144);
+    font-weight: bold;
+    margin: 1rem 0;
+  }
+
 
 ///////////////////////
 /// MEDIA QUERIES ////
