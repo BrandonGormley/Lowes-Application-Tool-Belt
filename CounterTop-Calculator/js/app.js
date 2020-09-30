@@ -31,6 +31,8 @@ for (let i = 0; i < letterButtons.length; i++) {
             if (letterButtons[i].classList.contains('button-selected')) {
                 let totalCost = squareFootInput.value * counterTopPrices[i];
                 total.innerHTML = `Estimated Cost: $${totalCost}`;
+            } else {
+                total.innerHTML = `Please select a Letter Type.`;
             }
         });
     }
