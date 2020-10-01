@@ -60,7 +60,7 @@ for (let i = 0; i < letterButtons.length; i++) {
         calculateButton.addEventListener('click', () => {
             if (letterButtons[i].classList.contains('button-selected')) {
                 let totalCost = squareFootInput.value * counterTopPrices[i];
-                total.innerHTML = `Estimated Cost: $${totalCost}`;
+                total.innerHTML = `Estimated Cost: $${totalCost}<br> Estimated Cost w/ Tax: $${totalCost * 1.07}`;
             }
         });
     }
@@ -79,7 +79,7 @@ for (let i = 0; i < quartzLetterButtons.length; i++) {
         calculateButton.addEventListener('click', () => {
             if (quartzLetterButtons[i].classList.contains('button-selected')) {
                 let totalCost = squareFootInput.value * quartzCounterTopPrices[i];
-                total.innerHTML = `Estimated Cost: $${totalCost}`;
+                total.innerHTML = `Estimated Cost: $${totalCost}<br> Estimated Cost w/ Tax: $${totalCost * 1.07}`;
             }
         });
     }
